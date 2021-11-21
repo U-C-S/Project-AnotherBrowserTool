@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SatelliteTests", "SatelliteTests.fsproj", "{6AD78030-CC6D-4BC0-A5CB-EDD28CA163A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Satellite", "api\Satellite.csproj", "{14672E34-820C-4697-A1D4-8212E023C72F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SatelliteTests", "test\SatelliteTests\SatelliteTests.fsproj", "{6AD78030-CC6D-4BC0-A5CB-EDD28CA163A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14672E34-820C-4697-A1D4-8212E023C72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14672E34-820C-4697-A1D4-8212E023C72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14672E34-820C-4697-A1D4-8212E023C72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14672E34-820C-4697-A1D4-8212E023C72F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6AD78030-CC6D-4BC0-A5CB-EDD28CA163A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6AD78030-CC6D-4BC0-A5CB-EDD28CA163A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AD78030-CC6D-4BC0-A5CB-EDD28CA163A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -20,6 +26,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A5A28001-3E9A-4DE8-8F4B-3A867639BE67}
+		SolutionGuid = {C1765773-B6CC-4D2F-89DE-C9D0A214B4CB}
 	EndGlobalSection
 EndGlobal
