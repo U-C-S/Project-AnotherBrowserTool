@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Satellite.Models;
+using System.Diagnostics;
 
 namespace Satellite.Controllers
 {
@@ -11,6 +12,7 @@ namespace Satellite.Controllers
         [HttpGet("{name}")]
         public ActionResult<ICollection<Link>> GetLinksInFolder(string name)
         {
+            Debug.WriteLine($"GetLinksInFolder - {name}");
             return new Link[] {
                 new Link {
                     id = Guid.NewGuid(),
