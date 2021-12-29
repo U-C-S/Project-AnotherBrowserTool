@@ -1,13 +1,18 @@
 import React from "react";
+import { Menu } from "../icons";
 
 export const Header = () => {
   return (
     <header>
       <div className="header-logo">
-        <h1>Header</h1>
+        <h1>Clink</h1>
       </div>
 
-      <div className="header-options-nav"></div>
+      <div className="header-options-nav">
+        <button>
+          <Menu />
+        </button>
+      </div>
 
       <style jsx>{`
         header {
@@ -22,6 +27,12 @@ export const Header = () => {
         }
         h1 {
           font-size: 40px;
+        }
+
+        button {
+          width: 40px;
+          background-color: white;
+          fill: #282c34;
         }
       `}</style>
     </header>
