@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Satellite", "api\Satellite.csproj", "{14672E34-820C-4697-A1D4-8212E023C72F}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SatelliteTests", "test\SatelliteTests\SatelliteTests.fsproj", "{6AD78030-CC6D-4BC0-A5CB-EDD28CA163A9}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SatelliteTests", "tests\SatelliteTests\SatelliteTests.fsproj", "{6AD78030-CC6D-4BC0-A5CB-EDD28CA163A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

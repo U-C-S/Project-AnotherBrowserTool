@@ -2,10 +2,10 @@
 {
     public class Link
     {
-        public Guid id { get; init; }
-        public string name { get; set; }
-        public string url { get; set; }
-        public DateTime createdOn { get; set; }
-        public DateTime? updatedOn { get; set; }
+        public Guid Id { get; init; }
+        public string Name { get; init; }
+        public string Url { get; set; }
+        public DateTime CreatedOn { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 }

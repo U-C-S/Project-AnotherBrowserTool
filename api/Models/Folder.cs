@@ -2,10 +2,10 @@ namespace Satellite.Models
 {
     public class Folder
     {
-        public Guid id { get; init; }
-        public string name { get; set; }
-        public DateTime createdOn { get; set; }
-        public DateTime updatedOn { get; set; }
-        public ICollection<Link>? links { get; set; }
+        public Guid Id { get; init; }
+        public string Name { get; set; }
+        public DateTime CreatedOn { get; set; }
+        public DateTime UpdatedOn { get; set; }
+        public ICollection<Link>? Links { get; set; }
     }
 }

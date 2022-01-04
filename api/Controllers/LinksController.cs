@@ -15,18 +15,18 @@ namespace Satellite.Controllers
             Debug.WriteLine($"GetLinksInFolder - {name}");
             return new Link[] {
                 new Link {
-                    id = Guid.NewGuid(),
-                    name = "YouTube",
-                    url = "https://www.youtube.com/",
-                    createdOn = DateTime.Now,
-                    updatedOn = null
+                    Id = Guid.NewGuid(),
+                    Name = "YouTube",
+                    Url = "https://www.youtube.com/",
+                    CreatedOn = DateTime.Now,
+                    UpdatedOn = null
                 },
                 new Link {
-                    id = Guid.NewGuid(),
-                    name = "Reddit",
-                    url = "https://www.reddit.com/",
-                    createdOn = DateTime.Now,
-                    updatedOn = null
+                    Id = Guid.NewGuid(),
+                    Name = "Reddit",
+                    Url = "https://www.reddit.com/",
+                    CreatedOn = DateTime.Now,
+                    UpdatedOn = null
                 }
             };
         }
